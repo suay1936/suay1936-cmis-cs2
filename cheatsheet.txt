@@ -1,0 +1,7 @@
+cd is for going into the repository
+ls is to list all the files that you have
+gedit is to create new files
+git add is to add to files to github
+git push is to save files to github
+git commit -m "comment message" is to add a comment to the work you've done
+
