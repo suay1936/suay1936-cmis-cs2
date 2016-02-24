@@ -27,8 +27,8 @@ def avg_volume (a, b):
 	 return ((1.0/6 * math.pi * a**3) + (1.0/6 * math.pi * b**3)) /2
 print avg_volume(10, 20)
 
-? def area (a, b, c):	return math.sqrt (2.75*(2.75-a)*(2.75-b)*(2.75-c))
-print area (1.0, 2.0, 2.5)
+? def area (a, b, c):	return math.sqrt (5.5*(5.5-a)*(5.5-b)*(5.5-c))
+print area (3.0, 4.0, 5.0) #heron's formula 
 
 def right_align (word): #80 is the character width of the screen 
 	return (80-len(word))*(" ")+word
@@ -47,18 +47,18 @@ def msg_box (word):
 print msg_box ("I eat cats!")
 a= add (3, 4)  #brackets are used here to call the function so that it performs the operation generating a value 
 print a
-a= add (3,4)
+a= add (1,2)
 print a
-b= sub (5, 3)
+b= sub (3, 4)
 print b
-b= sub (5,3)
+b= sub (5,6)
 print b
-c= mul (4, 4)
+c= mul (7, 8)
 print c
-c= mul (4, 4)
-d= div (2.0, 3.0)
+c= mul (9, 10)
+d= div (11.0, 12.0)
 print d
-d= div (2.0, 3.0)
+d= div (13.0, 14.0)
 print d 
 e= hours_from_seconds (86400)
 print e
@@ -76,9 +76,9 @@ h= avg_volume (10, 20)
 print h
 h= avg_volume (10, 20)
 print h
-i= area (1.0, 2.0, 2.5)
+i= area (3.0, 4.0, 5.0)
 print i
-i= area (1.0, 2.0, 2.5)
+i= area (3.0, 4.0, 5.0)
 print i
 j= right_align ("Hello")
 print j
