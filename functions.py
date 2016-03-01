@@ -37,14 +37,14 @@ def msg_box (number):
 print msg_box ("78.5398163397")
 
 
-def sphere_volume (a): #the equation for the volume of a sphere is (4/3)pi(r^3) 
+? def sphere_volume (a): #the equation for the volume of a sphere is (4/3)pi(r^3) 
 	return 1.33333333333 * math.pi * (a**3)  #the 4/3 was changed to get a float answer a float number has to be put in
 print sphere_volume (5)
 def msg_box (number):
     return "+" + ((len(number)+ 4)*"-") + "+" + "\n" + "|" + (2*" ") + (number) + (2*" ") + "|" + "\n" + "+" + ((len(number) +4)*"-") + "+"
 print msg_box ("523.598775597")
 
-def avg_volume (a, b):
+ ? def avg_volume (a, b):
 	 return ((1.0/6 * math.pi * a**3) + (1.0/6 * math.pi * b**3)) /2
 print avg_volume(10, 20)
 def msg_box (number):
