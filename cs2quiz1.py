@@ -1,6 +1,7 @@
 #Part 1:Terminology (13/15)
 #Part 2:Programming (2/25)
-#Total: (15/40)
+#Total: (15
+/40)
 #Part 1: Terminology (15 points) 
 #1 1pt) What is the symbol "=" used for? (0)
 # It is used to indicate that something is equal (the same) to the other. 
