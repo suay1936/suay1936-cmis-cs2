@@ -1,17 +1,20 @@
-#Part 1: Terminology (15 points)
-#1 1pt) What is the symbol "=" used for?
+#Part 1:Terminology (13/15)
+#Part 2:Programming (2/25)
+#Total: (15/40)
+#Part 1: Terminology (15 points) 
+#1 1pt) What is the symbol "=" used for? (0)
 # It is used to indicate that something is equal (the same) to the other. 
 #
 #
-#2 3pts) Write a technical definition for 'function'
+#2 3pts) Write a technical definition for 'function' (3)
 # A function is an unambiguous step by step process that takes in a something (input) then processes it (the coding part) and spits out a value (output/ performing the computation). 
 #
 #
-#3 1pt) What does the keyword "return" do?
+#3 1pt) What does the keyword "return" do? (1)
 # The keyword return spits out a value from the function. 
 #
 #
-#4 5pts) We know 5 basic data types. Write the name for each one and provide two
+#4 5pts) We know 5 basic data types. Write the name for each one and provide two (4)
 #   examples of each below
 #	1: str "Strawberry" "Banana"
 #	2: int 7 9 
@@ -20,13 +23,13 @@
 #	5: len len(Cookie) len(Oreos)
 #
 #5 2pts) What is the difference between a "function definition" and a 
-#        "function call"?
+#        "function call"? (2)
 # A function definition defines the function it describes what the function will do. Function call executes the function definition thus producing a value. 
 #
 #
 #
 #6 3pts) What are the 3 phases that every computer program has? What happens in
-#        each of them
+#        each of them (3)
 #	1: input: something is put in lets say a number.
 #	2: process: the program runs the value it does the calculation.
 #	3: output: a value is given out the process is complete. 
@@ -61,7 +64,10 @@ print
 print 
 print 
 
-
+# 1 point for return value
+# 1 point for parameter name 
+# 
+#
 
 
 
