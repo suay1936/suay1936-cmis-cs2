@@ -10,19 +10,26 @@
 
 
 #need to use the if an comparison
+# interval comparison 
 
+import random 
+import math 
 
-import math
+def numberRange(minNumber, maxNumber): 
+	return 
+	
 
-def minimumNumber
-
+	
+	if guess > target
+    print 
 
 
 def main():
-    minimumNumber = raw_input("What is the minimum number?")
-    maximumNumber = raw_input("What is the maximum number?")
-    rangeOfNumber = raw_input("I'm thinking of a number from")
-    myNumberGuess = raw_input("What do you think it is?: ")
+    minNumber = int(raw_input("What is the minimum number? "))
+    maxNumber = int(raw_input("What is the maximum number? "))
+    print "I'm thinking of a number from
+    myNumberGuess = int(raw_input("What do you think it is?: "))
 
+main()
    
     
