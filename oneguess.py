@@ -16,6 +16,7 @@ import random
 import math 
 
 
+
 def sub(guess, target):
     return guess - target
 def sub(guess, target):
@@ -28,19 +29,66 @@ def main():
 
     print "I'm thinking of a number from" 
     myNumberGuess = int(raw_input("What do you think it is?: "))
- 
     def condition(guessTarget):
 	
-        if int(guess) > int(target) #needs work
-   	        print "That's over by" 
+        if (guess) > (target): 
+            print "That's over by" 
             return sub(int(guess), int(target))
-        elif int(guess) < int(target)
-	        print "That's under by" sub(int(target), int(guess)) 
-        else int(guess) == int(target):
-             print "That's amazing! Someone's a lucky soul today!" 
+        elif int(guess) < int(target):
+            print "That's under by"
+            return sub(int(target), int(guess)) 
+        else 
+            print "That's amazing! Someone's a lucky soul today!" 
 
 
 
+      
+
+
+main()
+
+
+
+import random
+import math
+
+
+def output(minimumNumber, maximumNumber):
+	return """
+I'm thinking of a number {} - {}.
+""". format(minimumNumber, maximumNum)
+	
+def result(target, guess, difference):
+	if target > guess:	
+		print """ 
+The target was {}.
+Your guess was {}.
+That's under by {}.
+""". format(target, guess, difference)
+
+	elif target == guess:
+		print """
+The target was {}.
+Your guess was {}.
+That's correct!.
+""". format(target, guess, difference)
+
+	else:
+		print """
+The target was {}.
+Your Guess was {}.
+That's over by {}.
+""". format(target, guessNum, offBy)
+
+def main():
+
+	minimumNumber = int(raw_input("What is the minimum number?"))
+	maximumNumber = int(raw_input("What is the maximum number?"))
+	print output(minimumNumber, maximumNumber)	
+	guess = int(raw_input("What do you think it is?: "))
+	target = random.randint(int(minimumNumber), int(maximumNumber))
+	difference = abs(int(target) - int(guess))
+	result(target, guess, difference)
 main()
    
     
