@@ -15,21 +15,13 @@
 import random 
 import math 
 
-
+#adjust lines with def, check the if 
 
 def sub(guess, target):
     return guess - target
 def sub(guess, target):
     return target - guess
-
-
-def main():
-    minNumber = int(raw_input("What is the minimum number? "))
-    maxNumber = int(raw_input("What is the maximum number? "))
-
-    print "I'm thinking of a number from" 
-    myNumberGuess = int(raw_input("What do you think it is?: "))
-    def condition(guessTarget):
+def condition(guessTarget):
 	
         if (guess) > (target): 
             print "That's over by" 
@@ -42,6 +34,15 @@ def main():
 
 
 
+
+def main():
+    minNumber = int(raw_input("What is the minimum number? "))
+    maxNumber = int(raw_input("What is the maximum number? "))
+    print "I'm thinking of a number from" 
+    myNumberGuess = int(raw_input("What do you think it is?: "))
+  
+
+
       
 
 
@@ -49,46 +50,4 @@ main()
 
 
 
-import random
-import math
 
-
-def output(minimumNumber, maximumNumber):
-	return """
-I'm thinking of a number {} - {}.
-""". format(minimumNumber, maximumNum)
-	
-def result(target, guess, difference):
-	if target > guess:	
-		print """ 
-The target was {}.
-Your guess was {}.
-That's under by {}.
-""". format(target, guess, difference)
-
-	elif target == guess:
-		print """
-The target was {}.
-Your guess was {}.
-That's correct!.
-""". format(target, guess, difference)
-
-	else:
-		print """
-The target was {}.
-Your Guess was {}.
-That's over by {}.
-""". format(target, guessNum, offBy)
-
-def main():
-
-	minimumNumber = int(raw_input("What is the minimum number?"))
-	maximumNumber = int(raw_input("What is the maximum number?"))
-	print output(minimumNumber, maximumNumber)	
-	guess = int(raw_input("What do you think it is?: "))
-	target = random.randint(int(minimumNumber), int(maximumNumber))
-	difference = abs(int(target) - int(guess))
-	result(target, guess, difference)
-main()
-   
-    
