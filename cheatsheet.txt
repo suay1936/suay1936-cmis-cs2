@@ -4,4 +4,25 @@ gedit is to create new files
 git add is to add to files to github
 git push is to save files to github
 git commit -m "comment message" is to add a comment to the work you've done
+git clone --config="http.proxy=http://suay1936:bbcost77@192.168.2.1:8080" https://github.com/suay1936/suay1936-cmis-cs2.git
+
+cd = going into repository
+ls = list files
+cd gedit = create new files
+git add .  = add files into github
+git push .  = save files into github
+git commit -m“message” = add comment to work
+ctrl + d = get back to the green blue thing
+dir(__builtins__) = shows you the builtin functions
+help(what you need help with) = shows you how to use it ; press q to get out of help
+import math = to do math 
+dir(math) = shows you the builtin math functions
+help(math.what you want) = help on the function you want ; press q to go back
+you have to add a float input to get a float output for division
+use brackets to call a function
+tab width is important; set it before typing in the script
+raw_input “ {} + {} = {}” curly brackets 
+you can use “”” to have the in between thing; you start with “”” and end with “””; everything within the “”” will be there
+Boolean capital no quotation 
+type has to be the same for comparison or else false 
 
