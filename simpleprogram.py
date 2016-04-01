@@ -21,11 +21,14 @@ import math
 def 
 
 def total(baht4, dollar4, pound4):
-    return
+    return 
 
 def main():
     totalBaht = raw_input("How much money do you have in baht?: ")
     totalDollar = raw_input("How much money do you have in dollars?: ")
-    totlal
+    totlalPound = raw_input("How much money do you have in pounds?: ")
+
     
+
+main()
 
