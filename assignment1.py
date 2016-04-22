@@ -1,16 +1,16 @@
-myName= "KS"  # myName is the first variable used
+myName= " KS " # myName is the first variable used
 print myName
 myAge= 18 # this is an integer
 print myAge
-myAgeInDecimal= float(5 / 12) + 18  # needs fixing 
+myAgeInDecimal= 5 / 12.0 + 18.0 
 print myAgeInDecimal
-myHeightInMeters = 1.56 # this is an 
+myHeightInMeters = 1.56 # this is a float
 print myHeightInMeters
 squaresidelength = 4 # this is an integer
 print squaresidelength
 rectanglelength = 28 # this is another integer
 print rectanglelength
-rectangleheight = rectanglelength - 8 # this is an operation done in interactive mode 
+rectangleheight = rectanglelength - 8 # used - operand 
 print rectangleheight
 myAgeInMonths = myAgeInDecimal * 12 # an operand was used to calculate the product
 print myAgeInMonths
@@ -24,9 +24,9 @@ areaofsquare = squaresidelength ** 2 # two operands were used to calculate the a
 print areaofsquare
 halfvolumeofcube = squaresidelength ** 3 / 2
 print halfvolumeofcube
-oneninthrectanglearea = float(1 / 9) * (rectanglelength * rectangleheight)
-print oneninthrectanglearea #needs fixing 
-#Print out a message using 5 of the variables you created. Use the string concatenation operator (+) to do this.
-#Print out a second message using 5 more of the variables you created. Use the comma this time to print multiple values.
-
+oneninthrectanglearea = (rectanglelength * rectangleheight) / 9.0
+print oneninthrectanglearea 
+print "The length of the rectangle is " + str(rectanglelength) + ", the height of the rectangle is " +str(rectangleheight) + ", the area of the square is" + str(areaofsquare) + ", half of the volume of the cube is " +str(halfvolumeofcube) + " and one ninth of the rectangle's area is " +str(oneninthrectanglearea) + "." #used + to make string 
+print "Hello my name is" ,(myName),  "I am" ,(myHeightInMeters), "m. tall. I am" ,(myAge), "years old. My actual age is" ,(myAgeInDecimal), "years old. My age in months is" ,(myAgeInMonths), "." #used , to make string 
+print " ;) " * 10 ** 4
 
