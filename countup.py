@@ -7,8 +7,12 @@ def countup(n):
 
 def main():
     countup(0)
+    countup(1)
+    countup(-20)
 
     return
 
 
 main()
+
+
