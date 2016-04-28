@@ -22,27 +22,33 @@ def countupfromto(startA, stopA):
 countupfromto(10, 5)
     
         
-def adder():
-    n = raw_input("n: ")
-    if n == #conditional for when to stop the recursion and proceed to the sum
-        pass  
-        sum n 
-    adder(): #function calls itself so that raw input is recursed 
-
+def adder(track):
+    num = raw_input("num: ")
+    if num == "":
+        print "The sum of the numbers will be calculated"
+    else:
+        track += num
+        print "Running total: {}".format(track)
+        adder(trackgit )
+        
+        
 
 def main():
-    
-    adder()
-    countdownfromto(1, 10) 
-    countupfromto(10, 5)
+    track = 0
+
+    countdownfromto(10, 1) 
+    countupfromto(5, 10)
+    adder(track)
     
     return 
 
 main()
+ 	
 
 
 
-
-#code must ask the user to put in some numbers if the user doesn't put in a number and presses enter >> adder stop case then gives you the sum
-#pass makes it do nothing 
+#code must ask the user to put in some numbers if the user doesn't put in a number and presses enter >> adder stop case then gives you the sum 
 #to make recursion: function calls itself
+#biggest 
+#smallest
+#pow
