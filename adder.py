@@ -29,13 +29,39 @@ def adder(track):
     else:
         track += num
         print "Running total: {}".format(track)
-        adder(trackgit )
+        adder(track)
         
-        
+def biggest(number):
+    a = raw_input("Next number: ")
+    if a == "":
+    return number
+
+    else: 
+        a = float(a)
+        if a > number:
+            number = 
+        return biggest(number)
+
+def smallest(number):
+    b = raw_input("Next number: ")
+    if b == "":
+    return number
+
+    else: 
+        b = float(b)
+        if b > number:
+            number = 
+        return biggest(number)
+
+def pow(x, n)
+    if n == 0:
+        return 1
+    else:
+        return x * pow(x, n-1)
+
 
 def main():
     track = 0
-
     countdownfromto(10, 1) 
     countupfromto(5, 10)
     adder(track)
