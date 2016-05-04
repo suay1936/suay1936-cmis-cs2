@@ -27,7 +27,7 @@ def adder(track):
     if num == "":
         print "The sum of the numbers will be calculated"
     else:
-        track += num
+        track += int(num)
         print "Running total: {}".format(track)
         adder(track)
         
@@ -39,7 +39,7 @@ def biggest(number):
     else: 
         a = float(a)
         if a > number:
-            number = 
+            number = a
         return biggest(number)
 
 def smallest(number):
@@ -50,7 +50,7 @@ def smallest(number):
     else: 
         b = float(b)
         if b > number:
-            number = 
+            number = b
         return biggest(number)
 
 def pow(x, n)
@@ -66,7 +66,7 @@ def main():
     countupfromto(5, 10)
     adder(track)
     
-    return 
+    
 
 main()
  	
