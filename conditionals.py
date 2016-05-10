@@ -15,7 +15,6 @@
 #Use str.format() at least once in your script.
 #Use """ or ''' strings at least once in your script.
 #Write an interesting and/or entertaining story/game.
-
 #My Game
 # My game that will tell you at what age you will die and how you will die
 # It will ask for your current age
@@ -24,11 +23,6 @@
 # find a list of extreme activities: bungee jumping, creeking, 
 # It will ask you questions about how you spend your daily life
 # It will ask you how you plan to spend your future; where you want to go; what you want to do
-
-
-
-
-# It 
 #Use the same structure we learned about in the simple program assignment.
 
 
@@ -37,14 +31,27 @@
 import random
 import math
 
-def thePast(accidents):
-	return """ 
-accident """.format("Were you in any accidents that required multiple days of stay in the hospital" (y) == (n) 
-
-	raw_input
 
 
 
 
 
+
+
+def accidents(yes, no):
+	if accidents == yes
+        print int(current_age) + 15 
+        
+
+ 
+
+def main():
+    current_age = raw_input("How old are you?: ")
+    accidents = raw_input("Were you in any accidents that required multiple days of stay in the hospital?: ")
+    daily_life = raw_input("On avergae how many times a month do you get into accidents") 
+    future_plans = raw_input("Do you plan to participate in extreme activities in the future: ")
+
+
+
+main() 
 
