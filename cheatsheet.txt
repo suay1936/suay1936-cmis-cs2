@@ -7,6 +7,9 @@ git commit -m "comment message" is to add a comment to the work you've done
 
 git clone --config="http.proxy=http://suay1936:bbcost77@192.168.2.1:8080" https://github.com/suay1936/suay1936-cmis-cs2.git
 
+https://sites.google.com/a/cmis.ac.th/cs2/
+
+
 cd = going into repository
 ls = list files
 cd gedit = create new files
