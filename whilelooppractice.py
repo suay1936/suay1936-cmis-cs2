@@ -37,22 +37,23 @@ def count(d):
 #sum of all odds from n to 0
 
 def addOdds(n):
+    sum = 0
     if n > 0:     
         while n > 0:
-            print n % 2 == 0 
-                n -= 1
+            if n % 2 == 1:
+                sum += n
+            n -= 1
     elif n < 0:
         while n < 0:
-            print n % 2 == 0
-                n += 1
-    
-         
+            if n % 2 == 1:
+                sum += n
+            n += 1   
 
 
 def main():
     countdown(12)
     countup(12)
     count(10)
-    
+    addOdds(36)
 main()
 
